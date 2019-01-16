@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position:relative;
+    margin: 0 auto;
+    min-height: 99vh;
+}
+
+#masthead{
+    padding: 0;
+    margin:0 auto;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+#contentContain{
+    margin:0 auto;
+    padding: 0;  
+    width: 960px; 
+    
+}
+
+form{
+    border: solid black 1px;
+}
+
+button{
+    float: center;
+    margin-bottom: 9px;
+    right:15px;
+    margin-left:19px;
+}
+
+#footer{
+    min-height: calc(100vh - 65px);
+}
